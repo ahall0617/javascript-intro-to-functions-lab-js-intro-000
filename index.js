@@ -4,8 +4,8 @@ function shout(string) {
 function whisper(string) {
   return string.toLowerCase()
 }
-function logShout('HELLO') {
-  console.log('HELLO'.toLowerCase)
+function logShout('hello') {
+  console.log('hello'.toUpperCase)
 }
 function logWhisper(string) {
   console.log(string.toLowerCase)

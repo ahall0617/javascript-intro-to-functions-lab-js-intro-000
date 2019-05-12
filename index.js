@@ -19,10 +19,10 @@ function logWhisper(string) {
   console.log(string.toLowerCase)
 }
 function sayHiToGrandma(string) {
-  if ("HELLO!") {
-    return "YES INDEED!"
-  } else if ('hello!') {
+  if ('hello!') {
     return "I can't hear you!"
+  } else if ("HELLO!") {
+    return "YES INDEED!"
   } else {
     return "I love you, too."
   }
